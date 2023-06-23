@@ -1,0 +1,1 @@
+const toggleMenu=(el)=>{el.querySelector('span.ic-akmos').classList.toggle('icon-close');document.querySelector('.app-menu').classList.toggle('toggle-menu')};const toggleCardNotification=(el)=>el.classList.toggle('is-open');

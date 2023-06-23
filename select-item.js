@@ -1,0 +1,1 @@
+const selectItem=(element)=>{const parentElement=element.parentElement;const brotherElements=Array.from(parentElement.children);brotherElements.map((item)=>item.classList.remove('active'));element.classList.add('active');};

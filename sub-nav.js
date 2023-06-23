@@ -1,0 +1,1 @@
+const subNav=(el)=>{const subnav=el.querySelector('.sub-nav');const parent=el.parentElement;const brothers=Array.from(parent.children);brothers.map(item=>{item.classList.remove('active');item.querySelector('.sub-nav')&&item.querySelector('.sub-nav').classList.remove('open')});el.classList.add('active');subnav&&subnav.classList.toggle('open')}

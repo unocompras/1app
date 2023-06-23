@@ -1,0 +1,1 @@
+const copy=(el)=>{const copy_text=document.getElementById('c'+el);const tooltip=document.getElementById('t'+el);copy_text.select();copy_text.setSelectionRange(0,99999);document.execCommand('copy');tooltip.textContent='Copiado!';};const link=(el,message)=>{navigator.clipboard.writeText(message);el.parentElement.querySelector('.tooltip span').textContent='Copiado!';};
